@@ -13,7 +13,7 @@ function Web() {
       <div className="top-pane">
         <Editors language={'html'} lang={'< HTML />'} code={html} onchange={setHtml} />
         <Editors language={'css'} lang={'* { CSS }'} code={css} onchange={setCss} />
-        <Editors language={'javascript'} lang={'{ JS }'} code={js} onchange={setJs} />
+        <Editors language={'javascript'} lang={'Js { }'} code={js} onchange={setJs} />
       </div>
       <div className="bottom-pane">
         <Result />
