@@ -38,6 +38,7 @@
 - Output should be displayed on the output section in the right side of the page where as user can give custom input in the text box proveded and the status of your code with the details like memory and time should also bo visible just bellow the input box.
 
 ![Screenshot 2023-08-03 161437](https://github.com/Bluetooth-stack/online-compiler/assets/80689111/6a3865c8-1b28-47f5-8aa5-4949e0273243)
-
-- The code you have written and the language choosen won't be erased or changed untill you change them.
+  
 ![Screenshot 2023-08-03 161532](https://github.com/Bluetooth-stack/online-compiler/assets/80689111/f40157bc-9f36-4fbd-95d9-bf04cd29597f)
+
+** The code you have written and the language choosen won't be erased or changed untill you change them.
