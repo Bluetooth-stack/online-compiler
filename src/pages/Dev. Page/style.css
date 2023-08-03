@@ -22,7 +22,7 @@
     flex-direction: column;
     gap: 0.4rem;
     width: 41.2%;
-    height: 68dvh;
+    height: 74dvh;
 }
 
 .submitButton{
@@ -34,9 +34,9 @@
     border: 1px solid black;
     font-size: 0.9rem;
     font-weight: bold;
-    padding: 0.5rem;
+    padding: 0.5rem 1.5rem;
     height: 2rem;
-    width: 6rem;
+    width: auto;
     box-shadow: 2px 3px 2px 1px black;
     text-align: center;
     cursor: pointer;

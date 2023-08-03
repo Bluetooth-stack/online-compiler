@@ -4,6 +4,8 @@
     border: 1px solid lightgray;
     background-color: rgba(245, 245, 245, 0.63);
     resize: vertical;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .text-input:focus{

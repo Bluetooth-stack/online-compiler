@@ -13,7 +13,7 @@ const EditorWindow = ({ onChange, language, code }) => {
   return (
     <div className="devEditorContainer">
       <Editor
-        height="77.5dvh"
+        height="80dvh"
         width={`100%`}
         language={language || "javascript"}
         value={code}

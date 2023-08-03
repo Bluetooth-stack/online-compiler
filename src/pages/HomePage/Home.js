@@ -26,7 +26,7 @@ function Home() {
         <div className='webOption'>
           <h3>Web Development</h3>
           <p>Code with HTML, CSS & Js and you can view your designed web results
-            just bellow your code asynchronously.</p>
+            asynchronously.</p>
           <button onClick={() => { navigate('/webdevelopment') }} >Web.</button>
         </div>
 
