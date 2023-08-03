@@ -39,4 +39,5 @@
 
 ![Screenshot 2023-08-03 161437](https://github.com/Bluetooth-stack/online-compiler/assets/80689111/6a3865c8-1b28-47f5-8aa5-4949e0273243)
 
+- The code you have written and the language choosen won't be erased or changed untill you change them.
 ![Screenshot 2023-08-03 161532](https://github.com/Bluetooth-stack/online-compiler/assets/80689111/f40157bc-9f36-4fbd-95d9-bf04cd29597f)
