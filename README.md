@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# .&Code
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- .&Code is an desktop adaptive online compiler which can come handy to developers for some quick operation or tests as well as it can be quite helpful during any interview.
+- It uses Monaco editor to power it up as an editor to give the best experience to the programmer while writing codes and it uses Judge0 api service to provide the compilation power to support more than 40 programming languages.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Operate in local system
+  - This react app is created using CRA(Create-React-App).
+  - To operate this code in local system, clone this repository to your system and install all dependencies.
+  - You can use the command 'npm install' to install all dependencies at once.
+  - More over you need to create a profile for the Judge0 API to get the Host and Key for authentication.
+  - Create an .env file and define your Host, API key and the Api URL.
+  - Your .env file should look like this :-
+ 
+    REACT_APP_RAPID_API_HOST = your host
+    REACT_APP_RAPID_API_KEY = your api key
+    REACT_APP_RAPID_API_URL = your api url
 
-### `npm start`
+  - Now you can use the command 'npm start' to start your local server and run this webapp locally.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- It is a simple webapp that has two modes for developers
+1. WEB-DEVELOPMENT
+2. DEVELOPMENT
 
-### `npm test`
+- You can choose any of them as per your requirements either from nav-bar or from home page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot 2023-08-03 160829](https://github.com/Bluetooth-stack/online-compiler/assets/80689111/6551f0ff-b227-4f56-8c3a-b4f2d75b466f)
 
-### `npm run build`
+- WEB-DEVELOPMENT mode enable user to write code in HTML, CSS and JavaScript to develop and develop any web designs.
+- There are 3 text editors in top section which are collapsible and takes HTMl, CSS and JS a their input respectively.
+- Whatever design user built should be displyed asynchronously in buttom section of the page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot 2023-08-03 160911](https://github.com/Bluetooth-stack/online-compiler/assets/80689111/530c2425-7da9-4c44-aac1-6ab068fa455b)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- DEVELOPMENT mode allows the user to choose between 40+ languages and write code on that language over the editor provided.
+- Output should be displayed on the output section in the right side of the page where as user can give custom input in the text box proveded and the status of your code with the details like memory and time should also bo visible just bellow the input box.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot 2023-08-03 161437](https://github.com/Bluetooth-stack/online-compiler/assets/80689111/6a3865c8-1b28-47f5-8aa5-4949e0273243)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot 2023-08-03 161532](https://github.com/Bluetooth-stack/online-compiler/assets/80689111/f40157bc-9f36-4fbd-95d9-bf04cd29597f)
