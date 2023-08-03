@@ -18,7 +18,7 @@
 
   - Now you can use the command 'npm start' to start your local server and run this webapp locally.
 
-### Features
+### Features and Functionalities
 
 - It is a simple webapp that has two modes for developers
 1. WEB-DEVELOPMENT
